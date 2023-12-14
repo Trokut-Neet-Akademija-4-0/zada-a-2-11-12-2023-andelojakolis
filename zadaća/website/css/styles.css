@@ -1,0 +1,299 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    max-width: 991px;
+    margin: 0 auto;
+  }
+  
+  header {
+    height: 110px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    
+  }
+  
+  nav {
+    max-width: 991px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo, .links, .search {
+    vertical-align: middle;
+  }
+  
+  .logo a {
+    width: 10%;
+    text-decoration: none;
+    color: white;
+  }
+
+  .logo-img {
+    height: 50px;
+    width: 60px;
+  }
+
+  .logo a:hover {
+    color: #ffcc00;
+  }
+  
+  .links {
+    width: 30%;
+    text-align: center;
+  }
+  
+  .links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .links li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .links a:hover {
+    color: #ffcc00;
+  }
+  
+  .search {
+    text-align: left;
+  }
+  
+  form {
+    display: inline-block;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    width: 150px;
+  }
+  
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button {
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  button:hover {
+    color: #ffcc00;
+  }
+
+  .search-img {
+    margin-top: 0.5rem;
+    height: 15px;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .social-icons {
+    font-size: 24px;
+    max-width: 991px;
+  }
+
+  .social-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .social-icons a:hover {
+    color: #ffcc00;
+  }
+
+  .contact-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  
+  .contact-form {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .contact-form h2 {
+    color: #333;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #ffcc00;
+  }
+  
+  .contact-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #ffcc00;
+  }
+  
+  .company-info {
+    flex: 1;
+    padding: 20px;
+    height: 65vh;
+  }
+  
+  .company-info img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .social-icons a:hover {
+    color: #ffcc00;
+  }
+
+  .social-icons {
+    border-radius: 10px;
+    width: 40%;
+    text-align: center;
+    background-color: #333;
+  }
+
+  .gallery {
+    max-width: 991px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .gallery-item {
+    width: 30%;
+    margin: 10px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .gallery-item:hover {
+    transform: scale(1.17);
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .services {
+    max-width: 991px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .service {
+    width: 45%;
+    margin: 10px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-content {
+    padding: 20px;
+  }
+  
+  .service img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .service button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .service button:hover {
+    background-color: #ffcc00;
+  }
+
+  .about-image {
+    text-align: center;
+  }
+
+  .hero-section a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+
+  .hero-section a:hover {
+    color: #ffcc00;
+  }
+
+  .hero-section {
+    color: white;
+  }
+
+  .hero-content {
+    width: 100%;
+    position: absolute;
+  }
+
+  .hero-image {
+    max-width: 991px;
+    margin: auto;
+  }
+
+  .img-bg {
+    background: #ffcc00;
+  }
